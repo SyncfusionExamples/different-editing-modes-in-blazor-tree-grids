@@ -48,11 +48,6 @@ This sample demonstrates how to bind data to the Syncfusion [Blazor TreeGrid](ht
 dotnet restore
 dotnet run
 ```
-
-## Project Structure
-
-`Client/Pages/Index.razor` — Primary sample page containing the Syncfusion TreeGrid editing implementation, editing mode configuration, toolbar actions, CRUD workflow setup, and command-column functionality.
-
 ## Support and Feedback
 
 - For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).

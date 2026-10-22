@@ -8,8 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TreeGridEditingSample.Client\TreeGridEditingSample.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.12" />
     <PackageReference Include="Syncfusion.Blazor.TreeGrid" Version="35.1.41" />
-    <PackageReference Include="Syncfusion.Blazor.Themes" Version="35.1.41" />
   </ItemGroup>
 
 </Project>

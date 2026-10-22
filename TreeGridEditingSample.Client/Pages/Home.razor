@@ -1,5 +1,5 @@
 @page "/"
-@rendermode InteractiveServer
+@rendermode InteractiveWebAssembly
 
 <PageTitle>Tree Grid Editing</PageTitle>
 
@@ -39,7 +39,7 @@
     public class BusinessObject
     {
         public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public string? TaskName { get; set; }
         public DateTime? StartDate { get; set; }
         public int Duration { get; set; }
         public int Progress { get; set; }

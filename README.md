@@ -1,6 +1,6 @@
 # Different Editing Modes in Blazor Tree Grids
 
-A quick-start Blazor Web App (.NET 10) that helps you edit hierarchical data in a Syncfusion Blazor Tree Grid. In this example, you'll learn how to enable editing in a Tree Grid and explains you the available editing modes. Then it explains how to add a command column in a Tree Grid.
+A quick-start Blazor Web App with WebAssembly interactivity (.NET 10) that helps you edit hierarchical data in a Syncfusion Blazor Tree Grid. In this example, you'll learn how to enable editing in a Tree Grid and explains you the available editing modes. Then it explains how to add a command column in a Tree Grid.
 
 **Documentation**: https://help.syncfusion.com/grid-sdk/blazor/tree-grid/getting-started
 
@@ -14,7 +14,7 @@ A quick-start Blazor Web App (.NET 10) that helps you edit hierarchical data in 
 ## Project structure (.NET 10)
 
 ```
-TreeGridEditingSample/
+TreeGridEditingSample/          # Server project (hosts the WASM client)
 ├── Components/
 │   ├── App.razor
 │   ├── Routes.razor
@@ -25,6 +25,12 @@ TreeGridEditingSample/
 ├── wwwroot/
 ├── Program.cs
 └── TreeGridEditingSample.csproj
+TreeGridEditingSample.Client/    # WebAssembly client project (interactive components)
+├── Pages/
+│   └── Home.razor              # Tree Grid editing sample
+├── wwwroot/
+├── Program.cs
+└── TreeGridEditingSample.Client.csproj
 ```
 
 ## How to run the project
